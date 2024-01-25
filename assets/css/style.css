@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-family: Cabin, Lobster;
+}
+
+nav .RicomidaBrand {
+  font-family: Lobster !important;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 10rem;
+}
+
+.NavFont {
+  font-family: Cabin;
+}
+
+.navbar-custom {
+  background-color: #373a3c; /* Cambia esto al color que desees */
+  color: white; /* Color del texto */
+}
+
+#Inicial h1 {
+  font-family: Cabin;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #373a3c;
+  text-align: left;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+
+#Inicial h3 {
+  font-family: Cabin;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #373a3c;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.btn-custom {
+  font-family: Cabin;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-color: #343333;
+}
+
+.btn-custom2 {
+  font-family: Cabin;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #dc3545;
+  color: white;
+  border-color: white;
+}
+
+*/ #Carousel {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 20rem;
+}
+
+.ImgCarousel {
+  width: 12.8rem;
+  height: 12.8rem;
+}
+
+/* Aplica estilos CSS para los elementos de la lista */
+ol li {
+  margin-bottom: 10px; /* Espaciado entre elementos */
+}
+
+#TituloIngrediente {
+  font-family: Cabin;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+}
+
+#TituloPreparacion {
+  font-family: Cabin;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+}
+
+.Grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+  justify-content: center;
+  grid-gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.GridItem {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.TituloRecetas {
+  font-family: Cabin;
+  font-size: 2rem;
+  color: #373a3c;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ContainerReceta h3 {
+  font-size: 1rem;
+}
+
+.img {
+  width: 14rem;
+  height: 10rem;
+}
+
+.TituloReceta {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+.DescReceta {
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+
+#Landing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 24rem;
+  background-color: #dc3545;
+  padding-top: 7rem;
+}
+
+#Landing h2 {
+  font-family: Cabin;
+  font-weight: Bold;
+  color: #ffffff;
+}
+
+#Landing h3 {
+  font-family: Cabin;
+  font-size: Lobster;
+  font-weight: Regular;
+  color: #ffffff;
+}
+
+#BotonStart {
+  margin-top: 2rem;
+}
+
+#Footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 4rem;
+  background-color: #373a3c;
+}
+
+.subscribe {
+  font-family: cabin;
+  font-weight: bold;
+}
+
+.sub-sub {
+  font-family: Lobster;
+}
+
+.RicomidaFooter {
+  font-family: Lobster;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.colorIndicators {
+  color: black !important;
+  background-color: black !important;
+  height: 0.8rem !important;
+  width: 0.8rem !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  position: relative !important;
+  top: 3.5rem !important;
+}
+
+.colorIndicators2 {
+  background-color: black !important;
+  height: 0.8rem !important;
+  width: 0.8rem !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  position: relative !important;
+  top: 3.5rem !important;
+  right: 2rem !important;
+}
+
+/* pantalla cuando es menor a 800px */
+@media (max-width: 800px) {
+  nav .RicomidaBrand {
+    margin-left: 0;
+  }
+  #Carousel {
+    display: none;
+  }
+
+  .Grilla {
+    grid-template-columns: repeat(1, 15rem);
+    justify-content: center;
+    grid-gap: 2rem;
+  }
+}
